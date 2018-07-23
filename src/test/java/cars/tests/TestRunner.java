@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
         glue = "cars.steps"
 )
 
-public class TestRunner {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 
 
